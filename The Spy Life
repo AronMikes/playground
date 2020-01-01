@@ -1,0 +1,17 @@
+enter = input("")
+entered1 = list(enter) 
+entered = entered1[::-1]
+
+abc = ("abcdefghijklmnopqrstuvwxyz ")
+def split(word):
+	return [char for char in word] 	
+letters = split(abc) 
+
+
+clean = [] 
+for x in entered:
+	if x in letters:
+		print (x, end="") 
+	else:
+		pass
+      

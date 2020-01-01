@@ -1,3 +1,5 @@
+#for lower case inputs only, else make input lower case first
+
 enter = input("")
 entered1 = list(enter) 
 entered = entered1[::-1]
